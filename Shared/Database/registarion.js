@@ -39,7 +39,7 @@ const registerSchema=mongoose.Schema({
     },
     role_id:{
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'role',
+        ref: 'Role',
     },
     created_date:{
         type:Date,
@@ -59,7 +59,8 @@ const validateRegistration=function(user){
         gender:Joi.string().required(),
         Mobile_No:Joi.string().min(10).max(20).required(),
         email:Joi.string().min(5).max(255).required().email(),
-        password:Joi.string().min(5).max(1024).required()
+        password:Joi.string().min(5).max(1024).required(),
+        role_id:Joi.string().required()
         }
     return Joi.validate(user,regUser)
 }
