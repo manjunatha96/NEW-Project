@@ -30,8 +30,9 @@ router.post('/post',async(req,res)=>{
 })
 
 router.put('/update/:id', async(req,res)=>{
+
     await registerUser.findByIdAndUpdate({_id:req.params.id},{$set:
-        _.pick(req.body,['first_name','last_name','gender','Mobile_No','email','password','role_id'])
+        _.pick(req.body,['first_name','last_name','gender','Mobile_No','role_id']),
     },{new : true},(err,docs)=>{
         if(!err) res.send(docs)
         else console.error('Error while updating the data...',JSON.stringify(err,undefined,2))        
