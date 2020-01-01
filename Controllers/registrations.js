@@ -24,7 +24,8 @@ router.post('/post',async(req,res)=>{
     result.password= await bcrypt.hash(result.password,salt)
 
     await result.save((err,docs)=>{
-        if(!err) res.send(_.pick(result,['_id','first_name','last_name','gender','Mobile_No','email','role_id']))
+        const token= result.genrate()
+        if(!err) res.send(token)
         else console.error('Error while sendinf the data...',JSON.stringify(err,undefined,2))        
     })
 })

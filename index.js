@@ -5,7 +5,7 @@ const app=express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
 
-require('winston-mongodb')
+require('./Middleware/logs')
 require('./Shared/db')();
 require('./router/routes')(app)
 

@@ -1,7 +1,8 @@
 const mongoose=require('mongoose')
 const Joi=require('joi');
 let role=require('./role')
-// const Schema = mongoose.Schema;
+const jwt=require('jsonwebtoken')
+const config=require('config');
 const registerSchema=mongoose.Schema({
     first_name:{
         type:String,
@@ -50,6 +51,10 @@ const registerSchema=mongoose.Schema({
         default:true
     }
 })
+
+registerSchema.methods.genrate= function (){
+    return jwt.sign({_id:this._id,first_name:this.first_name,isAdmin:this.isAdmin },config.get('jwtPrivateKey'))
+}
 
 const registerUser=mongoose.model('user_register', registerSchema)
 const validateRegistration=function(user){
