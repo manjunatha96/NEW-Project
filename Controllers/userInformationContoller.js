@@ -26,7 +26,6 @@ router.post('/post', async(req,res)=>{
         if(!err) res.send(docs)
         else console.error('Error while sendinf the data...',JSON.stringify(err,undefined,2))        
     })
-
 })
 
 router.put('/update/:id',async(req,res)=>{

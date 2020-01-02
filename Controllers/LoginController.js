@@ -3,10 +3,16 @@ const router=express.Router();
 const {registerUser}=require('../Shared/Database/registarion')
 const bcrypt=require('bcryptjs')
 const Joi=require('joi')
+const loging=require('../Middleware/logins')
+
+router.get('/me',[loging],async(req,res)=>{
+    //  throw new Error('could not get login deatils...')
+    const result= await registerUser.findById(req.user._id).select('-password')
+    res.send(result)
+})
 
 router.post('/post',async (req,res)=>{
 
-    console.log('hiii..');
     let {error} = validate(req.body)
     if(error) return res.status(400).send(error.details[0].message)
 
@@ -15,8 +21,8 @@ router.post('/post',async (req,res)=>{
 
     let passwrd=await bcrypt.compare(req.body.password,valid.password)
     if(!passwrd) return res.status(400).send('Password is Incorrect..')
-
-    const token= valid.genrate()
+    
+    const token= valid.genrate() 
     res.send(token)
 })
 

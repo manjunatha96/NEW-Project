@@ -49,7 +49,8 @@ const registerSchema=mongoose.Schema({
     is_active:{
         type:Boolean,
         default:true
-    }
+    },
+    isAdmin:Boolean
 })
 
 registerSchema.methods.genrate= function (){

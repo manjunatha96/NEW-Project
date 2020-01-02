@@ -2,7 +2,6 @@ const express=require('express');
 const router=express.Router();
 const {registerUser,validate}=require('../Shared/Database/registarion')
 const _=require('lodash')
-const { role }= require('../Shared/Database/role');
 const bcrypt=require('bcryptjs')
 
 router.get('/get',async(req,res)=>{
@@ -25,7 +24,7 @@ router.post('/post',async(req,res)=>{
 
     await result.save((err,docs)=>{
         const token= result.genrate()
-        if(!err) res.send(token)
+        if(!err) res.header('X1-login',token).send(token)
         else console.error('Error while sendinf the data...',JSON.stringify(err,undefined,2))        
     })
 })
@@ -40,5 +39,11 @@ router.put('/update/:id', async(req,res)=>{
     })
 } )
 
+router.delete('/delete/:id',async(req,res)=>{
+    await registerUser.findByIdAndDelete(req.params.id,(err,docs)=>{
+        if(!err) res.send(docs)
+        else console.error('Error while deleting data..',JSON.stringify(err,undefined,2))   
+    })
+})
 
 module.exports=router;

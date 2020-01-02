@@ -1,5 +1,4 @@
 require('express-async-errors')
-require('../Middleware/logs')
 const rolesFile=require('../Controllers/roleController')
 const registrationUser=require('../Controllers/registrations')
 const userInformation=require('../Controllers/userInformationContoller')
