@@ -26,7 +26,7 @@ router.post('/post',async(req,res)=>{
     // res.status(200).send({ token });
     await result.save((err,docs)=>{
         const token= result.genrate()
-        if(!err) res.header('X1-login',token).send(token)
+        if(!err) res.header('X1-login',token).send({token})
         else console.error('Error while sendinf the data...',JSON.stringify(err,undefined,2))        
     })
 })

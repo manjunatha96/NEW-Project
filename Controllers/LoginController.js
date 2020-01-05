@@ -23,7 +23,7 @@ router.post('/post',async (req,res)=>{
     if(!passwrd) return res.status(400).send('Password is Incorrect..')
     
     const token= valid.genrate() 
-    res.send(token)
+    res.send({token})
 })
 
 const validate=function(user){

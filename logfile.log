@@ -85,3 +85,11 @@
 {"message":"Cannot set headers after they are sent to the client","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:485:11)\n    at ServerResponse.header (D:\\Practice\\Module\\BackEnd\\node_modules\\express\\lib\\response.js:771:10)\n    at D:\\Practice\\Module\\BackEnd\\Controllers\\registrations.js:25:9","code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-01-04T05:30:29.406Z"}
 {"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-04T05:35:13.973Z"}
 {"level":"info","message":"Database connected successfully..","timestamp":"2020-01-04T05:35:14.000Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-05T07:44:53.931Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-05T07:45:10.175Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-05T09:44:58.371Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-05T09:44:58.445Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-05T11:50:49.202Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-05T11:50:49.264Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-05T12:18:20.525Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-05T12:18:20.598Z"}
