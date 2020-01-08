@@ -8,6 +8,11 @@ router.get('/get',async (req,res)=>{
     await res.send(result)
 })
 
+router.get('/get/:id',async (req,res)=>{
+    const result=await role.findById(req.params.id)
+    await res.send(result)
+})
+
 router.post('/post', async(req,res)=>{
     const {error} = validate(req.body)
     if(error) res.status(400).send(error.details[0].message)
@@ -23,9 +28,8 @@ router.post('/post', async(req,res)=>{
 })
 
 router.put('/update/:id', async(req,res)=>{
-    const ress=await role.findOne({role_name:req.body.role_name})
-    if(ress) res.status(400).send('This role already exits..')
-
+    // const ress=await role.findOne({role_name:req.body.role_name})
+    // if(ress) res.status(400).send('This role already exits..')
     role.findByIdAndUpdate({_id:req.params.id},{$set:
         _.pick(req.body,['role_name'])
     },{new : true},(err,docs)=>{
