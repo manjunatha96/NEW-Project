@@ -31,10 +31,16 @@ router.post('/post',async(req,res)=>{
     })
 })
 
-router.put('/update/:id', async(req,res)=>{
+router.put('/update_password', async(req,res)=>{
 
-    await registerUser.findByIdAndUpdate({_id:req.params.id},{$set:
-        _.pick(req.body,['first_name','last_name','gender','Mobile_No','role_id']),
+    const valid=await registerUser.findOne({email:req.body.email})
+    if(!valid) res.status(400).send('Email not exits..')
+
+    const salt= await bcrypt.genSalt(10)
+    const results= await bcrypt.hash(req.body.password,salt)
+    req.body.password=results;
+    await registerUser.findOneAndUpdate({email:req.body.email},{$set:
+        _.pick(req.body,['password']),
     },{new : true},(err,docs)=>{
         if(!err) res.send(docs)
         else console.error('Error while updating the data...',JSON.stringify(err,undefined,2))        
@@ -48,4 +54,13 @@ router.delete('/delete/:id',async(req,res)=>{
     })
 })
 
+router.put('/update/:id', async(req,res)=>{
+
+    await registerUser.findByIdAndUpdate({email:req.params.id},{$set:
+        _.pick(req.body,['first_name','last_name','gender','Mobile_No','role_id']),
+    },{new : true},(err,docs)=>{
+        if(!err) res.send(docs)
+        else console.error('Error while updating the data...',JSON.stringify(err,undefined,2))        
+    })
+} )
 module.exports=router;
