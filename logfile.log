@@ -177,3 +177,30 @@
 {"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-09T09:33:58.709Z"}
 {"level":"info","message":"Database connected successfully..","timestamp":"2020-01-09T09:33:58.738Z"}
 {"message":"Illegal arguments: undefined, string","stack":"Error: Illegal arguments: undefined, string\n    at _async (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:214:46)\n    at D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:223:17\n    at new Promise (<anonymous>)\n    at Object.bcrypt.hash (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:222:20)\n    at D:\\Practice\\Project\\NEW-Project\\Controllers\\registrations.js:40:33","level":"error","timestamp":"2020-01-09T10:02:56.417Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-10T03:29:20.468Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-10T03:29:42.317Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-11T04:27:47.005Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-11T04:27:47.036Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-11T07:36:39.424Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-11T07:36:39.449Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-11T09:36:41.714Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-11T09:36:41.742Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-11T10:33:35.515Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-11T10:33:35.543Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-13T03:32:57.245Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-13T03:32:57.281Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-13T03:35:40.742Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-13T03:35:40.772Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-13T07:21:00.812Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-13T07:21:00.846Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-13T08:24:17.982Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-13T08:24:18.013Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-13T08:41:57.483Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-13T08:41:57.510Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-13T08:43:55.095Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-13T08:43:55.125Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-13T08:46:55.413Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-13T08:46:55.440Z"}
+{"message":"Cannot set headers after they are sent to the client","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:485:11)\n    at ServerResponse.header (D:\\Practice\\Project\\NEW-Project\\node_modules\\express\\lib\\response.js:771:10)\n    at ServerResponse.send (D:\\Practice\\Project\\NEW-Project\\node_modules\\express\\lib\\response.js:170:12)\n    at D:\\Practice\\Project\\NEW-Project\\Controllers\\registrations.js:23:31\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-01-13T08:47:01.490Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-13T08:49:19.838Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-13T08:49:19.864Z"}

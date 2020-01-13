@@ -7,7 +7,12 @@ const bcrypt=require('bcryptjs')
 router.get('/get',async(req,res)=>{
     const result=await registerUser.find()
     .populate('role')
-    res.send(result)
+    await res.send(result)
+})
+router.get('/get/:id',async(req,res)=>{
+    const result=await registerUser.findById(req.params.id)
+    .populate('role')
+    await res.send(result)
 })
 
 router.post('/post',async(req,res)=>{

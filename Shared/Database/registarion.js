@@ -3,6 +3,7 @@ const Joi=require('joi');
 let role=require('./role')
 const jwt=require('jsonwebtoken')
 const config=require('config');
+
 const registerSchema=mongoose.Schema({
     first_name:{
         type:String,
@@ -51,6 +52,9 @@ const registerSchema=mongoose.Schema({
         default:true
     },
     isAdmin:Boolean
+    // file:{
+    //     type:String
+    // }
 })
 
 registerSchema.methods.genrate= function (){
