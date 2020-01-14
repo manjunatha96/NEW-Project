@@ -26,9 +26,6 @@ router.post('/post',async(req,res)=>{
 
     const salt= await bcrypt.genSalt(10)
     result.password= await bcrypt.hash(result.password,salt)
-    // const token= result.genrate()
-    // res.header('X1-login', token);
-    // res.status(200).send({ token });
     await result.save((err,docs)=>{
         const token= result.genrate()
         if(!err) res.header('X1-login',token).send({token})

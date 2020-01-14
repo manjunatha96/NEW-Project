@@ -7,24 +7,6 @@ const app=express();
 const crypto = require("crypto");
 const path = require("path");
 const multer = require("multer");
-const GridFsStorage = require("multer-gridfs-storage");
-
-var store= multer.diskStorage({
-    destination:(req,file,cb)=>{
-        cb(null,'./upload')
-    },
-    filename:(req,file,cb)=>{
-        cb(null,Date.now()+'-'+file.originalname)
-    }
-})
-var upload=multer({storage:store}).single('file');
-
-app.post('/upload',(req,res,next)=>{
-    upload(req,res,(err)=>{
-        return res.status(501).json({error:err})
-    })
-    res.json({originalname:req.file.originalname,uploadname:req.file.filename})
-})
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
