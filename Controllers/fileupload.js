@@ -7,10 +7,6 @@ const {Filing}=require('../Shared/Database/fileuploader');
 
 var array = new Array();
 
-router.get('/get',async(req,res)=>{
-    await res.send('getting file page')
-})
-
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
      cb(null, './uploads/');
@@ -23,28 +19,36 @@ var storage = multer.diskStorage({
       }
     });
 
-router.post('/post',multer({storage: storage, dest: './uploads/'}).single('uploads'), async(req,res)=>{
-    let result= await new Filing(_.pick(req.file,['fieldname','originalname','encoding','mimetype','destination','filename','path','size']))  
+router.post('/post',multer({storage: storage, dest: './uploads/'}).single('uploads'), async(req,res)=>{ 
+    let result= await new Filing({
+        uploads:req.file
+    })  
     result.save((err,docs)=>{
-        if(!err) res.send(docs)
-        else res.status(401).send(err) 
+    if(!err) res.send(docs)
+    else res.status(401).send(err) 
     })
 })
 
 router.post('/postMul',multer({storage: storage, dest: './uploads/'}).array('uploads',2), async(req,res)=>{
-    console.log(req.files.length);
-    let u=req.files;
-     console.log(u);
-     for (let index = 0; index < req.files.length; index++) 
-     {
-         console.log('-->',req.files[index]);
-     }
-    
-    let result= await new Filing(_.pick(req.file,['fieldname','originalname','encoding','mimetype','destination','filename','path','size']))  
-    console.log('file--',result);
+    let result= await new Filing({
+        uploads:req.files
+    })  
     result.save((err,docs)=>{
-        if(!err) res.send(docs)
-        else res.status(401).send(err) 
+    if(!err) res.send(docs)
+    else res.status(401).send(err) 
     })
 })
+
+router.get('/download/:id',(req,res)=>{  
+    Filing.find({filename:req.params.id},(err,data)=>{  
+        if(err){  
+            console.log(err)  
+        }   
+        else{  
+           var path=data[0].path ;      
+           res.download(path);  
+        }  
+    })  
+}) 
+
 module.exports=router;
