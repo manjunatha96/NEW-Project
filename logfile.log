@@ -471,3 +471,155 @@
 {"level":"info","message":"Database connected successfully..","timestamp":"2020-01-15T12:03:56.372Z"}
 {"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-15T12:05:28.317Z"}
 {"level":"info","message":"Database connected successfully..","timestamp":"2020-01-15T12:05:28.371Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T03:40:14.002Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T03:40:14.028Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T03:40:53.141Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T03:40:53.164Z"}
+{"message":"Illegal arguments: undefined, string","stack":"Error: Illegal arguments: undefined, string\n    at _async (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:214:46)\n    at D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:223:17\n    at new Promise (<anonymous>)\n    at Object.bcrypt.hash (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:222:20)\n    at D:\\Practice\\Project\\NEW-Project\\Controllers\\registrations.js:28:35","level":"error","timestamp":"2020-01-16T03:49:54.840Z"}
+{"message":"Illegal arguments: undefined, string","stack":"Error: Illegal arguments: undefined, string\n    at _async (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:214:46)\n    at D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:223:17\n    at new Promise (<anonymous>)\n    at Object.bcrypt.hash (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:222:20)\n    at D:\\Practice\\Project\\NEW-Project\\Controllers\\registrations.js:28:35","level":"error","timestamp":"2020-01-16T03:50:21.705Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T03:50:51.569Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T03:50:51.594Z"}
+{"message":"Illegal arguments: undefined, string","stack":"Error: Illegal arguments: undefined, string\n    at _async (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:214:46)\n    at D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:223:17\n    at new Promise (<anonymous>)\n    at Object.bcrypt.hash (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:222:20)\n    at D:\\Practice\\Project\\NEW-Project\\Controllers\\registrations.js:30:35","level":"error","timestamp":"2020-01-16T03:50:53.862Z"}
+{"message":"Illegal arguments: undefined, string","stack":"Error: Illegal arguments: undefined, string\n    at _async (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:214:46)\n    at D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:223:17\n    at new Promise (<anonymous>)\n    at Object.bcrypt.hash (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:222:20)\n    at D:\\Practice\\Project\\NEW-Project\\Controllers\\registrations.js:30:35","level":"error","timestamp":"2020-01-16T03:51:10.264Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T03:51:16.825Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T03:51:16.850Z"}
+{"message":"Illegal arguments: undefined, string","stack":"Error: Illegal arguments: undefined, string\n    at _async (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:214:46)\n    at D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:223:17\n    at new Promise (<anonymous>)\n    at Object.bcrypt.hash (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:222:20)\n    at D:\\Practice\\Project\\NEW-Project\\Controllers\\registrations.js:30:35","level":"error","timestamp":"2020-01-16T03:51:18.512Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T03:53:40.271Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T03:53:40.294Z"}
+{"message":"Illegal arguments: undefined, string","stack":"Error: Illegal arguments: undefined, string\n    at _async (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:214:46)\n    at D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:223:17\n    at new Promise (<anonymous>)\n    at Object.bcrypt.hash (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:222:20)\n    at D:\\Practice\\Project\\NEW-Project\\Controllers\\registrations.js:38:35","level":"error","timestamp":"2020-01-16T03:53:43.708Z"}
+{"message":"Illegal arguments: undefined, string","stack":"Error: Illegal arguments: undefined, string\n    at _async (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:214:46)\n    at D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:223:17\n    at new Promise (<anonymous>)\n    at Object.bcrypt.hash (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:222:20)\n    at D:\\Practice\\Project\\NEW-Project\\Controllers\\registrations.js:38:35","level":"error","timestamp":"2020-01-16T03:54:01.501Z"}
+{"message":"Illegal arguments: undefined, string","stack":"Error: Illegal arguments: undefined, string\n    at _async (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:214:46)\n    at D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:223:17\n    at new Promise (<anonymous>)\n    at Object.bcrypt.hash (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:222:20)\n    at D:\\Practice\\Project\\NEW-Project\\Controllers\\registrations.js:38:35","level":"error","timestamp":"2020-01-16T03:54:54.193Z"}
+{"message":"Illegal arguments: undefined, string","stack":"Error: Illegal arguments: undefined, string\n    at _async (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:214:46)\n    at D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:223:17\n    at new Promise (<anonymous>)\n    at Object.bcrypt.hash (D:\\Practice\\Project\\NEW-Project\\node_modules\\bcryptjs\\dist\\bcrypt.js:222:20)\n    at D:\\Practice\\Project\\NEW-Project\\Controllers\\registrations.js:38:35","level":"error","timestamp":"2020-01-16T03:54:59.951Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T03:56:41.141Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T03:56:41.167Z"}
+{"message":"salt is not defined","stack":"ReferenceError: salt is not defined\n    at D:\\Practice\\Project\\NEW-Project\\Controllers\\registrations.js:38:56\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","level":"error","timestamp":"2020-01-16T03:56:43.586Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T03:57:02.710Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T03:57:02.735Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T03:57:52.241Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T03:57:52.266Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T03:59:49.035Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T03:59:49.062Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T04:02:10.961Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T04:02:10.986Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T04:02:33.938Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T04:02:33.966Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T04:03:09.539Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T04:03:09.565Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T04:05:00.359Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T04:05:00.389Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T04:13:50.061Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T04:13:50.087Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T04:24:34.687Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T04:24:34.713Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T04:28:10.693Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T04:28:10.719Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T04:29:57.300Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T04:29:57.328Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T04:30:15.980Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T04:30:16.008Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T04:32:17.930Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T04:32:17.957Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T05:07:38.120Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T05:07:38.148Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T05:13:11.691Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T05:13:11.719Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T05:30:04.051Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T05:30:04.082Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T05:30:49.201Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T05:30:49.230Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T05:42:29.336Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T05:42:29.362Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T05:43:02.143Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T05:43:02.171Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T05:44:16.817Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T05:44:16.845Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T05:44:38.854Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T05:44:38.927Z"}
+{"message":"Cannot read property 'filename' of undefined","stack":"TypeError: Cannot read property 'filename' of undefined\n    at D:\\Practice\\Project\\NEW-Project\\Controllers\\fileupload.js:58:37\n    at newFn (D:\\Practice\\Project\\NEW-Project\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (D:\\Practice\\Project\\NEW-Project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Practice\\Project\\NEW-Project\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Practice\\Project\\NEW-Project\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (D:\\Practice\\Project\\NEW-Project\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (D:\\Practice\\Project\\NEW-Project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Practice\\Project\\NEW-Project\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (D:\\Practice\\Project\\NEW-Project\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (D:\\Practice\\Project\\NEW-Project\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (D:\\Practice\\Project\\NEW-Project\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (D:\\Practice\\Project\\NEW-Project\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Practice\\Project\\NEW-Project\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Practice\\Project\\NEW-Project\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (D:\\Practice\\Project\\NEW-Project\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (D:\\Practice\\Project\\NEW-Project\\node_modules\\express\\lib\\router\\layer.js:95:5)","level":"error","timestamp":"2020-01-16T05:44:41.067Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T05:57:24.581Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T05:57:24.607Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T05:57:57.997Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T05:57:58.025Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T06:00:39.495Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T06:00:39.523Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T06:06:05.815Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T06:06:05.842Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T06:07:14.705Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T06:07:14.733Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T06:14:32.898Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T06:14:32.924Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T06:15:20.364Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T06:15:20.390Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T06:17:04.221Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T06:17:04.249Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T06:32:37.497Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T06:32:37.524Z"}
+{"message":"ENOENT: no such file or directory, open 'D:\\Practice\\Project\\NEW-Project\\uploads\\1579158249397.jpg'","stack":"Error: ENOENT: no such file or directory, open 'D:\\Practice\\Project\\NEW-Project\\uploads\\1579158249397.jpg'","errno":-4058,"code":"ENOENT","syscall":"open","path":"D:\\Practice\\Project\\NEW-Project\\uploads\\1579158249397.jpg","storageErrors":[],"level":"error","timestamp":"2020-01-16T07:04:09.400Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:04:17.550Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:04:17.585Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:07:29.442Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:07:29.469Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:08:01.498Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:08:01.525Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:08:56.184Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:08:56.213Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:10:54.328Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:10:54.359Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:11:17.816Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:11:17.846Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:12:05.962Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:12:05.988Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:12:26.449Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:12:26.475Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:13:10.056Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:13:10.084Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:14:43.442Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:14:43.469Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:15:26.216Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:15:26.247Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:16:13.483Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:16:13.511Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:16:50.278Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:16:50.307Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:17:14.849Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:17:14.875Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:18:18.293Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:18:18.320Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:18:53.821Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:18:53.847Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:19:26.929Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:19:26.956Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:20:17.703Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:20:17.731Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:21:16.161Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:21:16.188Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:21:57.390Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:21:57.417Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:22:11.408Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:22:11.436Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:26:45.195Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:26:45.222Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:27:10.026Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:27:10.053Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:27:48.651Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:27:48.678Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T07:28:15.887Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T07:28:15.917Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T08:25:32.198Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T08:25:32.228Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T08:26:00.774Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T08:26:00.801Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T08:26:26.504Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T08:26:26.531Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T08:27:05.577Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T08:27:05.604Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T08:27:32.199Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T08:27:32.225Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T08:29:05.439Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T08:29:05.467Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T08:29:20.542Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T08:29:20.569Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T08:29:58.967Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T08:29:58.994Z"}
+{"level":"info","message":"Server is connected to 1234","timestamp":"2020-01-16T08:43:21.126Z"}
+{"level":"info","message":"Database connected successfully..","timestamp":"2020-01-16T08:43:21.154Z"}

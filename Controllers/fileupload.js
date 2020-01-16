@@ -21,6 +21,7 @@ var storage = multer.diskStorage({
 
 router.post('/post',multer({storage: storage, dest: './uploads/'}).single('uploads'), async(req,res)=>{ 
     let result= await new Filing({
+        filenames:filename,
         uploads:req.file
     })  
     result.save((err,docs)=>{
@@ -31,6 +32,7 @@ router.post('/post',multer({storage: storage, dest: './uploads/'}).single('uploa
 
 router.post('/postMul',multer({storage: storage, dest: './uploads/'}).array('uploads',2), async(req,res)=>{
     let result= await new Filing({
+        filenames:filename,
         uploads:req.files
     })  
     result.save((err,docs)=>{
@@ -45,10 +47,24 @@ router.get('/download/:id',(req,res)=>{
             console.log(err)  
         }   
         else{  
-           var path=data[0].path ;      
+           var path=data[0].path ;            
            res.download(path);  
         }  
     })  
 }) 
+
+
+router.get('/downloads/:id',async(req,res)=>{
+    Filing.find({ filenames:req.params.id}, (err,data)=>{
+        if(!err){
+            var path=data[0].uploads[0].path;     
+            res.download(path); 
+        }
+        else
+        {
+         console.log(err);
+        }
+    })
+})
 
 module.exports=router;

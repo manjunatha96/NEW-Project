@@ -51,10 +51,8 @@ const registerSchema=mongoose.Schema({
         type:Boolean,
         default:true
     },
-    isAdmin:Boolean
-    // file:{
-    //     type:String
-    // }
+    isAdmin:Boolean,
+    uploads:Array
 })
 
 registerSchema.methods.genrate= function (){
