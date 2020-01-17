@@ -75,3 +75,4 @@ const validateRegistration=function(user){
 
 module.exports.validate=validateRegistration;
 module.exports.registerUser=registerUser;
+module.exports.registerSchema=registerSchema;
