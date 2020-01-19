@@ -41,19 +41,6 @@ router.post('/postMul',multer({storage: storage, dest: './uploads/'}).array('upl
     })
 })
 
-router.get('/download/:id',(req,res)=>{  
-    Filing.find({filename:req.params.id},(err,data)=>{  
-        if(err){  
-            console.log(err)  
-        }   
-        else{  
-           var path=data[0].path ;            
-           res.download(path);  
-        }  
-    })  
-}) 
-
-
 router.get('/downloads/:id',async(req,res)=>{
     Filing.find({ filenames:req.params.id}, (err,data)=>{
         if(!err){

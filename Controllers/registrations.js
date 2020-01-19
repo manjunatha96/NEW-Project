@@ -18,12 +18,12 @@ var storage = multer.diskStorage({
 
 router.get('/get',async(req,res)=>{
     const result=await registerUser.find()
-    .populate('role')
+    .populate('role_id')
     await res.send(result)
 })
 router.get('/get/:id',async(req,res)=>{
     const result=await registerUser.findById(req.params.id)
-    .populate('role')
+    .populate('role_id')
     await res.send(result)
 })
 
@@ -87,4 +87,15 @@ router.put('/update/:id', async(req,res)=>{
         else console.error('Error while updating the data...',JSON.stringify(err,undefined,2))        
     })
 } )
+
+router.get('/download/:id',async(req,res)=>{  
+   let result= await registerUser.findById({_id:req.params.id},(err,docs)=>{
+       if(err){console.log(err)} 
+       else{
+           let path=docs.uploads[0].path;
+           res.download(path)          
+       }
+   })  
+})
+
 module.exports=router;
