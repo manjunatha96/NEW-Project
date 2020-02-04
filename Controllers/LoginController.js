@@ -8,6 +8,7 @@ const loging=require('../Middleware/logins')
 router.get('/me',[loging],async(req,res)=>{
     //  throw new Error('could not get login deatils...')
     const result= await registerUser.findById(req.user._id).select('-password')
+    .populate('role_id')
     res.send(result)
 })
 
