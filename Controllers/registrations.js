@@ -5,10 +5,10 @@ const _=require('lodash')
 const bcrypt=require('bcryptjs')
 const multer=require('multer');
 var storage = multer.diskStorage({
-    destination: function (req, file, cb) {
+    destination: function (req, files, cb) {
      cb(null, './uploads/');
         },
-     filename: function (req, file, cb) {
+     filename: function (req, files, cb) {
         var originalname = file.originalname;
         var extension = originalname.split(".");
         filename = Date.now() + '.' + extension[extension.length-1];
@@ -27,14 +27,14 @@ router.get('/get/:id',async(req,res)=>{
     await res.send(result)
 })
 
-router.post('/post',multer({storage: storage, dest: './uploads/'}).single('uploads'),async(req,res)=>{
+router.post('/post',multer({storage: storage, dest: './uploads/'}).array('uploads',2),async(req,res)=>{
 
     const {error}= validate(req.body)
     if(error) res.status(400).send(error.details[0].message)
 
     const valid=await registerUser.findOne({email:req.body.email})
     if(valid) res.status(400).send('Email already exits..')
-
+ console.log(req.files)
     let result= await new registerUser({
         first_name:req.body.first_name,
         last_name:req.body.last_name,
@@ -43,7 +43,7 @@ router.post('/post',multer({storage: storage, dest: './uploads/'}).single('uploa
         email:req.body.email,
         password:req.body.password,
         role_id:req.body.role_id,
-        uploads:req.file
+        uploads:req.files
     })
 
     const salt= await bcrypt.genSalt(10)
